@@ -12,8 +12,6 @@ export async function allowCors<T>(
 ) {
   res.setHeader("Access-Control-Allow-Credentials", "*");
   res.setHeader("Access-Control-Allow-Origin", "*");
-  // another common pattern
-  // res.setHeader('Access-Control-Allow-Origin', req.headers.origin);
   res.setHeader(
     "Access-Control-Allow-Methods",
     "GET,OPTIONS,PATCH,DELETE,POST,PUT"
