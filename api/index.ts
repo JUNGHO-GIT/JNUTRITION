@@ -10,7 +10,7 @@ export default async (
       lang: l.lang,
       url: l.searchUrl,
     })),
-    repo: "https://github.com/JUNGHO-GIT/FAT",
+    repo: "https://github.com/JUNGHO-GIT/JNUTRITION",
     credits: ["fatsecret.com", "vercel.sh"],
   });
 };
