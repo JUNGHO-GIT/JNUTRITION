@@ -1,4 +1,3 @@
-// FatDetail.js
 import { VercelRequest, VercelResponse } from '@vercel/node';
 import cheerio from 'cheerio';
 import { fetchHTML } from '../../../utils/fetch';

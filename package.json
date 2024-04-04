@@ -1,15 +1,14 @@
 {
-  "name": "fatsecret-unofc-api",
+  "name": "fat-api",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "Jungho",
+  "license": "ISC",
   "scripts": {
     "start": "vercel dev",
     "deploy": "vercel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/cheerio": "^0.22.30",
     "@types/lru-cache": "^5.1.1",

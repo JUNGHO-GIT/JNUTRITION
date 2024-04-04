@@ -9,7 +9,6 @@ interface DefaultMenu {
   desc: string;
 }
 
-// eslint-disable-next-line @typescript
 export default async (
   request: VercelRequest,
   response: VercelResponse
